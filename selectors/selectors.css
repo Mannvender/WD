@@ -1,0 +1,30 @@
+ul li {
+    color: deeppink;
+}
+
+ol li {
+    color: lawngreen;
+}
+
+ul li li {
+    font-style: italic;
+}
+
+ul > ul {
+    background-color: aquamarine;
+}
+
+ul ul li {
+    color: blue;
+    font-weight: bolder;
+}
+
+li + ul {
+    font-family: monospace;
+}
+
+li ~ ul {
+    font-size: 50px;
+}
+
+

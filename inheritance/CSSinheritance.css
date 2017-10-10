@@ -1,0 +1,27 @@
+* {
+    background-color: aquamarine;
+}
+
+.cl1 {
+    background-color: coral;
+}
+
+div {
+    background-color: red;
+}
+
+#id1 {
+    background-color: blue;
+}
+
+#id2 {
+    background-color: darkgoldenrod;
+}
+
+#id2 {
+    background-color: deeppink;
+}
+/*earlier property overriden*/
+.cl1 {
+    background-color: lawngreen;
+}

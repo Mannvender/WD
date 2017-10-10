@@ -1,0 +1,27 @@
+.box {
+
+    margin: 10px;
+    /*background will be somebody else's*/
+    /*margin is outside block*/
+
+    padding: 20px;
+    /*padding is inside block but outside contents*/
+
+    border: dashed;
+    /*border separates them*/
+    /*belongs to you- background colour is your*/
+
+    /*later comes contents they are */
+}
+
+#id1 {
+    background-color: lawngreen;
+}
+
+#id2 {
+    background-color: deeppink;
+}
+
+#id3 {
+    background-color: blue;
+}

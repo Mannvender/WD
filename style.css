@@ -1,0 +1,31 @@
+* {
+    color: red;
+}
+
+div {
+    margin-left: 30px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#p2 {
+    font-family: "Comic Sans MS";
+}
+
+#p3 {
+    margin-left: 20px;
+}
+
+/*body {
+    margin-top: 140px;
+}*/
+
+.osmpara {
+    background-color: coral;
+}
+
+.bigpara {
+    font-size: 50px;
+}

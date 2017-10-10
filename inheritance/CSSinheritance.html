@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="CSSinheritance.css" rel="stylesheet">
+    <!-- same as separate style sheet but overrides separate style sheet-->
+    <style>
+        * {
+            background-color: beige;
+        }
+
+        #idGod {
+            background-color: olive;
+        }
+    </style>
+</head>
+<body>
+<div class="cl1" id="id1">
+    div 1
+</div>
+<div class="cl1" id="id2">
+    div 2
+</div>
+<div class="cl1" id="id3">
+    div 3
+</div>
+<div>
+    div 4
+</div>
+<div style="background-color: brown">
+    <p id="idGod">
+        div 5 para
+    </p>
+    div 5
+</div>
+</body>
+</html>

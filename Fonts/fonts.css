@@ -1,0 +1,18 @@
+#para1 {
+    font-size: 5vh; /* 1/100 of window height*/
+}
+
+#para2 {
+    font-family: monospace, "Comic Sans MS", Algerian;
+}
+
+/*left size family is tried first if not available then it will go for next*/
+#para3 {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#para4 {
+    word-spacing: 4px;
+    letter-spacing: 6px;
+}
