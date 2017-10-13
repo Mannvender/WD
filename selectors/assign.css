@@ -1,8 +1,9 @@
 
-ul ul {
+li > ul {
     display: none;
 }
 
-li :hover .innerul {
+li:hover > ul {
     display: block;
 }
+
