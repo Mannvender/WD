@@ -1,0 +1,25 @@
+#div1 {
+    background-color: aqua;
+    height: 50px;
+    width: 60px;
+    margin: 100px;
+
+}
+#div1:hover {
+    background-color: antiquewhite;
+    height: 20px;
+    transition: background 2s, height 3s;
+}
+#div2 {
+    background-color: brown;
+    height: 20px;
+    width: 40px;
+    margin: 80px;
+}
+div:hover + div {
+    border: solid black;
+    transform: translateX(40px);
+    transition: border 2s;
+    /*not able to apply border and transform transition all together*/
+    transition: transform 2s;
+}

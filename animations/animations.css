@@ -1,0 +1,50 @@
+div {
+    height: 20px;
+    width: 30px;
+    margin: 50px;
+    background-color: crimson;
+    border: solid;
+}
+
+@keyframes slide {
+    from {
+        margin-left: 50px;
+    }
+    to {
+        margin-left: 200px;
+    }
+}
+
+#div2:hover + div {
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+
+#div3:hover + div {
+    animation-name: crazyslide;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes crazyslide {
+    0% {
+        margin-left: 50px;
+    }
+    40% {
+        height: 40px;
+        margin-left: 100px;
+        border: 10px solid black;
+        background-color: darkorange;
+    }
+    70% {
+        margin-left: 140px;
+        border: 20px solid black;
+        background-color: darkblue;
+    }
+    100% {
+        margin-left: 230px;
+        background-color: lawngreen;
+    }
+
+}
