@@ -1,0 +1,39 @@
+body {
+    height: 700px;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    background-color: burlywood;
+    flex-direction: row; /*by default*/
+    /*flex-direction: row-reverse;*/
+    flex-wrap: wrap; /*by default - no wrap*/
+    justify-content: space-around; /*justify will relate things in horizantal*/
+    align-items: center;
+    align-content: space-around;
+}
+
+.item {
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    background-color: lawngreen;
+    margin: 20px;
+    padding: 10px;
+    /*flex-grow: 4;*/
+    flex-shrink: 1; /*works better with nowrap*/
+}
+
+#item11 {
+    order: 1;
+    flex-grow: 1;
+    /*if no order given it will be considered 0*/
+    /*if order is game then it will look at order of creation of items(top to bottom*/
+}
+
+#item12 {
+    order: 2;
+    align-self: flex-start; /*only have affect when nowrap is set, it changes position of single item*/
+    /*even negative values are allowed*/
+}

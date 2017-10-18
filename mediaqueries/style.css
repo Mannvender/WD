@@ -1,0 +1,47 @@
+#samplediv {
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+@media (max-width: 1500px) {
+    #samplediv {
+        background-color: crimson;
+    }
+}
+
+@media (max-width: 750px) and (min-width: 500px) {
+    /*not applied as 1000px color is written later which is overriding this color*/
+    /*in such case use both min-width and max-width property*/
+    #samplediv {
+        width: 200px;
+        background-color: chocolate;
+    }
+}
+
+@media (max-width: 1000px)and (min-width: 750px) {
+    #samplediv {
+        background-color: dimgrey;
+    }
+}
+
+@media (max-width: 500px) {
+    #samplediv {
+        width: 100px;
+        background-color: gold;
+    }
+}
+
+@media (min-width: 720px) and (orientation: portrait) {
+    /*for phones*/
+    /*you can use landscape orientation too*/
+}
+
+/*
+@media (not(color-profile)) {
+#samplediv {
+        background-color: grey;
+    }
+
+}*/
+
