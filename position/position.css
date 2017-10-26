@@ -25,7 +25,7 @@ div {
 #div3 {
     position: absolute;
     top: 40px;
-
+    /*position :relative*/
     /*same as static but we can use top right left bottom properties */
     /*top =10 means 10 px below the position it should have been*/
     /*top = 10px  is similar to bottom = -10px*/
