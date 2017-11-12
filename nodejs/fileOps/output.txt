@@ -1,0 +1,5 @@
+cat:4
+rat:1
+human:1
+duck:1
+dog:1

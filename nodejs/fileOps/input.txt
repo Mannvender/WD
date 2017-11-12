@@ -1,0 +1,8 @@
+cat
+rat
+human
+duck
+cat
+dog
+cat
+cat
